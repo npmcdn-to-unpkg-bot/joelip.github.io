@@ -4,6 +4,27 @@
 </p>
 <ul>
     <li>
-        <a href='javascript:(function(){var r=new RegExp("^(http|https)://(www|).quora.com/.*/answers");if(r.test(window.location.href)){$.each($(".answer_upvote"),function(index,value){if($(value).hasClass("pressed")){console.log("already upvoted");}else{$(value).trigger("click");}});}else{alert("You must be on someone's answer page in order to use this plugin.");}})();)'>Upvote Quora Answers</a>
+        <a href="javascript:(function() {
+
+            var r = new RegExp(\"^(http|https)://(www|).quora.com/.*/answers\");
+
+            if (r.test(window.location.href)) {
+
+                $.each($('.answer_upvote'), function(index, value) {
+                    if($(value).hasClass('pressed')) {
+                        console.log(\"already upvoted\");
+                    } else {
+                        $(value).trigger('click');
+                    }
+                });
+            
+            } else {
+                alert(\"You must be on someone's answer page in order to use this plugin.\");
+            }
+
+        })();">Upvote Quora Answers 1</a>
+    </li>
+    <li>
+        <a href="javascript:(function(){var r=new RegExp("^(http|https)://(www|).quora.com/.*/answers");if(r.test(window.location.href)){$.each($('.answer_upvote'),function(index,value){if($(value).hasClass('pressed')){console.log("already upvoted");}else{$(value).trigger('click');}});}else{alert("You must be on someone's answer page in order to use this plugin.");}})();">Upvote Quora Answers 2</a>
     </li>
 </ul>
