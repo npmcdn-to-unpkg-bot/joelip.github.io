@@ -4,6 +4,6 @@
 </p>
 <ul>
     <li>
-    <a href="javascript:(function(){var r=new RegExp('^(http|https)://(www|).quora.com/.*/answers');if(r.test(window.location.href)){$.each($('.answer_upvote'),function(index,value){if($(value).hasClass('pressed')){console.log('already upvoted');}else{$(value).trigger('click');}});}else{alert('You must be on a user /answers page in order to use this plugin. For example: http://quora.com/joe-lipper/answers');}})();">Upvote All Quora Answers</a>
+    <a href="javascript:(function(){var r=new RegExp('^(http|https)://(www.)?quora.com/.*/answers');if(r.test(window.location.href)){$.each($('.answer_upvote'),function(index,value){if($(value).hasClass('pressed')){console.log('already upvoted');}else{$(value).trigger('click');}});}else{alert('You must be on a user /answers page in order to use this plugin. For example: http://quora.com/joe-lipper/answers');}})();">Upvote All Quora Answers</a>
     </li>
 </ul>
