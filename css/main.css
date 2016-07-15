@@ -8,3 +8,11 @@
   margin: auto;
   width: 600px;
 }
+
+.small-text {
+  font-size: 12px;
+}
+
+.real-small-text {
+  font-size: 10px;
+}
