@@ -1,9 +1,21 @@
-<h3>List of <b>BOOKMARKLETS OK ERIC AND COLLEEN</b></h3>
-<p>
-    Drag the link to your bookmarks bar to use it. When you want to run the script, click on the bookmarklet when you get to the page.
-</p>
-<ul>
-    <li>
-    <a href="javascript:(function(){var r=new RegExp('^(http|https)://(www.)?quora.com/.*/answers');if(r.test(window.location.href)){$.each($('.answer_upvote'),function(index,value){if($(value).hasClass('pressed')){console.log('already upvoted');}else{$(value).trigger('click');}});}else{alert('You must be on a user /answers page in order to use this plugin. For example: http://quora.com/joe-lipper/answers');}})();">Upvote All Quora Answers</a>
-    </li>
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Joe Lipper's Very Mediocre Website</title>
+  <link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.0-beta.28/css/tachyons.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <section class="main">
+    <section class="main__content">
+      <h2 class="f1">Joe Lipper</h2>
+      <p class="f3">
+        Hello, and welcome to my <span class="i">very mediocre website&#8482;</span>. I hope at some point in the future it will be less mediocre, and perhaps, dare I say, somewhat <span class="i">professional</span>.
+      </p>
+      <p class="f3">
+        For now, please enjoy a few links. Here is my <a href="https://twitter.com/joelipper">Twitter</a>, my <a href="https://github.com/joelip">GitHub</a>, and <a href="https://bloc.io">the place I currently work, Bloc</a>. I am web developer who leans toward frontend development, but work with Rails frequently as well. If, by some terribly misguided desire, you have more interest in my work experience, you can find a copy of my r&eacute;sum&eacute;, <a href="docs/joe_lipper_resume_04_2016.pdf">here</a>.
+      </p>
+    </section>
+  </section>
+</body>
+</html>
